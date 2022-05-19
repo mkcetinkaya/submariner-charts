@@ -30,6 +30,7 @@ ipsec:
   forceUDPEncaps: false
   ikePort: 500
   natPort: 4500
+  natDiscovery: 4490
 leadership:
   leaseDuration: 10
   renewDeadline: 5
