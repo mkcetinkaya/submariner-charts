@@ -15,6 +15,7 @@ spec:
   ceIPSecIKEPort: {{ .Values.ipsec.ikePort }}
   ceIPSecNATTPort: {{ .Values.ipsec.natPort }}
   ceNatDiscovery: {{ .Values.ipsec.natDiscovery }}
+  ceIPSecPreferredServer: {{ .Values.ipsec.preferredServer }}
   ceIPSecPSK: {{ .Values.ipsec.psk }}
   clusterCIDR: "{{ .Values.submariner.clusterCidr }}"
   clusterID: {{ .Values.submariner.clusterId }}
