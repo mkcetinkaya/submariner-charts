@@ -31,6 +31,7 @@ ipsec:
   ikePort: 500
   natPort: 4500
   natDiscovery: 4490
+  preferredServer: false
 leadership:
   leaseDuration: 10
   renewDeadline: 5
